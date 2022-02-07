@@ -1,0 +1,60 @@
+*******************************DUDAS**************************
+-Los usuarios ponen comentarios, el admin el unico que puede borrarlo
+-Respeto de las sesiones (veterinaria).
+-Sustituir el include por require/require_once
+-Usar bootstrap y estilos personalizados.
+-Funciones axuliares de cokiees y sesiones
+-Es mejor meter todo en una tabla o los descativados meterlos en otra
+vista solo para el admin?????????????????????????????
+
+
+***************************CARPETAS****************************
+-BD X
+-Vista X
+-Modelo X
+-Controlador X
+-Vista X
+-Estilos (estilos css personalizados) X
+-Imagenes
+
+
+****************************FUNCIONES AUX************************
+Este codigo servirá para hacer funciones como meter la cabecera, menu, footer.
+Todas las comprobaciones de datos se hacen en los controladores
+-insertar_cab()
+-insertar_menu()
+-insertar_footer()
+
+*************************ARCHIVOS VISTA******************************
+Estos archivos podran ser vistos por todos los usuarios, tanto socios como el admin
+Si esta desactivada la serie, no podrá ser vista por los socios, pero si por el administrador
+
+-index.php X
+-vista_login X
+-vista_cerrarSesion X
+-vista_series X
+-vista_plataforma X
+-vista_verMas X
+
+-------------------Archivos vista exclusivos del administrador-------------------------
+-vista_modificarSerie X
+-vista_modificarPlata X
+-vista_socio X
+-vista_modificarSocio X
+-vista_comentario X
+
+***********************************ARCHIVOS MODELO*************************************
+-modelo_index X
+-modelo_series X
+-modelo_plataformas X
+-modelo_socios X
+-modelo_comentario X
+
+*****************************************ARCHIVO CONTROLADORES********************************
+-controlador_plataforma X
+-controlador_series X
+-controlador_socios X
+-controlador_comentarios X
+-controlador_modificar_socio X
+-controlador_modificar_serie X
+-controlador_modificar_plataforma X
